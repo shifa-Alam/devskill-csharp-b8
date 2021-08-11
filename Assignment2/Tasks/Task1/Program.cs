@@ -6,7 +6,7 @@ namespace Task1
     {
         static void Main(string[] args)
         {
-            var result = IsPrime(19);
+            var result = IsPrime(15);
             Console.WriteLine(result);
         }
 
@@ -18,17 +18,19 @@ namespace Task1
             }
             else if (number > 2)
             {
+                var count = 0;
                 for (var i = 2; i <= number / 2; i++)
                 {
                     if (number % i == 0)
                     {
-                        return false;
-
+                        count++;
+                        break;
                     }
-                    else return true;
+
                 }
+                return (count > 0) ? false : true;
             }
-           
+
             return false;
 
         }

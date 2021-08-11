@@ -6,8 +6,6 @@ namespace Task3
     {
         static void Main(string[] args)
         {
-            //var result = LargeSubtraction("987654321987654321987654321", "123456789123456789123456789");
-            //Console.WriteLine(result);
             var result = LargeSubtraction("98765432198509285902023894023028743983282480924589024024802840272835209328741396349823087654321987654321", "123456789130929048732590435894308490450985039823456789123456789");
             Console.WriteLine(result);
         }
@@ -20,8 +18,6 @@ namespace Task3
             b = (a.Length > b.Length) ? ApplyUpdatebBl(a, b) : b;
 
             return SubTractResult(a, b);
-
-
         }
 
         private static string SubTractResult(string a, string b)
