@@ -12,15 +12,14 @@ namespace Task4
 
         public static int BinaryToDecimal(string binaryNumber)
         {
+            binaryNumber = binaryNumber.Trim();
             var decimalNumber = 0;
             for (var i = 0; i < binaryNumber.Length; i++)
             {
                 var mainNumber = int.Parse(binaryNumber[i].ToString());
-                var power = binaryNumber.Length - (i+1);
-                var powvalue = ((int)Math.Pow(2, power));
-               
-             
-                decimalNumber += mainNumber * powvalue;
+                var power = binaryNumber.Length - (i + 1);
+                var powResult = ((int)Math.Pow(2, power));
+                decimalNumber += mainNumber * powResult;
             }
             return decimalNumber;
         }

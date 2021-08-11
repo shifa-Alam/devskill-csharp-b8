@@ -13,6 +13,7 @@ namespace Task5
 
         public static int CountVowels(string aText)
         {
+            aText = aText.Trim();
             var count = 0;
             for (var i = 0; i < aText.Length; i++)
             {
