@@ -29,11 +29,7 @@ namespace Task5
                 }
 
             }
-            //if (aText.Contains("a",StringComparison.OrdinalIgnoreCase)) { count++; }
-            //if (aText.Contains("e", StringComparison.OrdinalIgnoreCase)) { count++; }
-            //if (aText.Contains("i", StringComparison.OrdinalIgnoreCase)) { count++; }
-            //if (aText.Contains("o", StringComparison.OrdinalIgnoreCase)) { count++; }
-            //if (aText.Contains("u", StringComparison.OrdinalIgnoreCase)) { count++; }
+           
             return count;
         }
     }
