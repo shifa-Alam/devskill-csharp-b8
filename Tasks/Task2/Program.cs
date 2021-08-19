@@ -12,7 +12,14 @@ namespace Task2
 
         public static string Rotate(string original, int count)
         {
-            throw new NotImplementedException();
+
+            for (var i = 0; i < count; i++)
+            {
+              
+                original = string.Concat(original.Substring(original.Length - 1), original);
+                original = original.Remove(original.Length-1);
+            }
+            return original;
         }
     }
 }

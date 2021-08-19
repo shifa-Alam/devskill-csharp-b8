@@ -18,10 +18,11 @@ namespace Task1
 
                 var m = twelveHourFormat.Split(":");
                 var x = Convert.ToInt32(m[0]);
-                var n = 0;
+                
                 if (x == 12)
                 {
-                    n = x - 12;
+                   
+                   var n = x - 12;
                     twelveHourFormat = twelveHourFormat.Replace(x.ToString(), n.ToString());
                 }
 
@@ -32,19 +33,15 @@ namespace Task1
                 twelveHourFormat = twelveHourFormat.Replace("pm", "");
                 var m = twelveHourFormat.Split(":");
                 var x = Convert.ToInt32(m[0]);
-                var n = 0;
+               
                 if (x < 12)
                 {
-                    n = x + 12;
+                   var  n = x + 12;
                     twelveHourFormat = twelveHourFormat.Replace(x.ToString(), n.ToString());
                 }
 
             }
-            else
-            {
-                twelveHourFormat = twelveHourFormat.Replace("pm", "");
-                twelveHourFormat = twelveHourFormat.Replace("am", "");
-            }
+           
 
             return twelveHourFormat.Trim();
         }
