@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Task1Tests
-build_property.ProjectDir = D:\course\assignment\devskill-csharp-b8\Assignment2\Tests\Task1Tests\
+build_property.ProjectDir = D:\course\devskill-csharp-b8\Assignment2\Tests\Task1Tests\

@@ -8,23 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\shifa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\course\\assignment\\devskill-csharp-b8\\Assignment2\\Tasks\\Task3\\Task3.csproj",
+      "projectUniqueName": "D:\\course\\devskill-csharp-b8\\Assignment2\\Tasks\\Task3\\Task3.csproj",
       "projectName": "Task3",
-      "projectPath": "D:\\course\\assignment\\devskill-csharp-b8\\Assignment2\\Tasks\\Task3\\Task3.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\course\\assignment\\devskill-csharp-b8\\Assignment2\\Tasks\\Task3\\obj\\",
+      "projectPath": "D:\\course\\devskill-csharp-b8\\Assignment2\\Tasks\\Task3\\Task3.csproj",
+      "packagesPath": "C:\\Users\\shifa\\.nuget\\packages\\",
+      "outputPath": "D:\\course\\devskill-csharp-b8\\Assignment2\\Tasks\\Task3\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shifa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

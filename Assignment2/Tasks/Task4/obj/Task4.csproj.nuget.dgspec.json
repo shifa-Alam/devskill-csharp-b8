@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\course\\assignment\\devskill-csharp-b8\\Assignment2\\Tasks\\Task4\\Task4.csproj": {}
+    "D:\\course\\devskill-csharp-b8\\Assignment2\\Tasks\\Task4\\Task4.csproj": {}
   },
   "projects": {
-    "D:\\course\\assignment\\devskill-csharp-b8\\Assignment2\\Tasks\\Task4\\Task4.csproj": {
+    "D:\\course\\devskill-csharp-b8\\Assignment2\\Tasks\\Task4\\Task4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\course\\assignment\\devskill-csharp-b8\\Assignment2\\Tasks\\Task4\\Task4.csproj",
+        "projectUniqueName": "D:\\course\\devskill-csharp-b8\\Assignment2\\Tasks\\Task4\\Task4.csproj",
         "projectName": "Task4",
-        "projectPath": "D:\\course\\assignment\\devskill-csharp-b8\\Assignment2\\Tasks\\Task4\\Task4.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\course\\assignment\\devskill-csharp-b8\\Assignment2\\Tasks\\Task4\\obj\\",
+        "projectPath": "D:\\course\\devskill-csharp-b8\\Assignment2\\Tasks\\Task4\\Task4.csproj",
+        "packagesPath": "C:\\Users\\shifa\\.nuget\\packages\\",
+        "outputPath": "D:\\course\\devskill-csharp-b8\\Assignment2\\Tasks\\Task4\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shifa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
