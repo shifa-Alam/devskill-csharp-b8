@@ -13,7 +13,7 @@ namespace EFCore
 
             Student saveStudent = new Student
             {
-                Name = "Shifa",
+                Name = "Raju",
                 DateOfBirth = new DateTime(1994, 10, 8),
                 Address = "Mirpur, Dhaka"
 
@@ -31,12 +31,12 @@ namespace EFCore
 
             };
 
-            var modifiedStudent = studentService.Update(updateStudent);
-            Console.WriteLine(modifiedStudent);
+            //var modifiedStudent = studentService.Update(updateStudent);
+            //Console.WriteLine(modifiedStudent);
 
 
-            var deleteStudent = studentService.Delete(1);
-            Console.WriteLine(deleteStudent);
+            //var deleteStudent = studentService.Delete(1);
+            //Console.WriteLine(deleteStudent);
 
 
             var students = studentService.GetAll();
@@ -57,7 +57,7 @@ namespace EFCore
             CourseService courseService = new CourseService();
             Course saveCourse = new Course
             {
-                Title = "Data stucture Algo",
+                Title = "C#",
                 Fees = 120000,
                 DurationInHours = 96
 
@@ -75,12 +75,12 @@ namespace EFCore
 
             };
 
-            var modifiedCourse = courseService.Update(updateCourse);
-            Console.WriteLine(modifiedCourse);
+            //var modifiedCourse = courseService.Update(updateCourse);
+            //Console.WriteLine(modifiedCourse);
 
 
-            var deleteCourse = courseService.Delete(1);
-            Console.WriteLine(deleteCourse);
+            //var deleteCourse = courseService.Delete(1);
+            //Console.WriteLine(deleteCourse);
 
 
             var Courses = courseService.GetAll();
@@ -96,8 +96,7 @@ namespace EFCore
 
             #endregion
 
-
-            #region Enrollment
+            //#region Enrollment
 
             EnrollmentService EnrollmentService = new EnrollmentService();
 
@@ -112,34 +111,34 @@ namespace EFCore
             var addEnrollment = EnrollmentService.Save(saveEnrollment);
             Console.WriteLine(addEnrollment);
 
-            Enrollment updateEnrollment = new Enrollment
-            {
-                StudentId = 1,
-                CourseId = 1,
-                EnrollDate = DateTime.Now
+            //Enrollment updateEnrollment = new Enrollment
+            //{
+            //    StudentId = 1,
+            //    CourseId = 1,
+            //    EnrollDate = DateTime.Now
 
-            };
+            //};
 
-            var modifiedEnrollment = EnrollmentService.Update(updateEnrollment);
-            Console.WriteLine(modifiedEnrollment);
-
-
-            var deleteEnrollment = EnrollmentService.Delete(1);
-            Console.WriteLine(deleteEnrollment);
+            //var modifiedEnrollment = EnrollmentService.Update(updateEnrollment);
+            //Console.WriteLine(modifiedEnrollment);
 
 
-            var Enrollments = EnrollmentService.GetAll();
-            if (Enrollments != null)
-            {
-                Console.WriteLine("StudentId     CourseId EnrollDate ");
-                foreach (var Enrollment in Enrollments)
-                {
-                    Console.WriteLine($"{Enrollment.StudentId}, {Enrollment.CourseId}, {Enrollment.EnrollDate}");
+            //var deleteEnrollment = EnrollmentService.Delete(1);
+            //Console.WriteLine(deleteEnrollment);
 
-                }
-            }
 
-            #endregion
+            //var Enrollments = EnrollmentService.GetAll();
+            //if (Enrollments != null)
+            //{
+            //    Console.WriteLine("StudentId     CourseId EnrollDate ");
+            //    foreach (var Enrollment in Enrollments)
+            //    {
+            //        Console.WriteLine($"{Enrollment.StudentId}, {Enrollment.CourseId}, {Enrollment.EnrollDate}");
+
+            //    }
+            //}
+
+            //#endregion
         }
     }
 }

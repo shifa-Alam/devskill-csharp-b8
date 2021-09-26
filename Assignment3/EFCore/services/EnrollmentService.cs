@@ -35,7 +35,7 @@ namespace EFCore.services
         {
             try
             {
-                var existingEnrollment = context.Enrollments.FirstOrDefault(e=>e.CourseId==enrollment.CourseId && e.StudentId==enrollment.StudentId);
+                var existingEnrollment = context.Enrollments.Find(enrollment.Id);
                 if (existingEnrollment != null)
                 {
                     existingEnrollment.EnrollDate = enrollment.EnrollDate;
