@@ -1,0 +1,15 @@
+D:\course\devskill-csharp-b8\Tasks\Task2\obj\Debug\net5.0\Task2.GeneratedMSBuildEditorConfig.editorconfig
+D:\course\devskill-csharp-b8\Tasks\Task2\obj\Debug\net5.0\Task2.AssemblyInfoInputs.cache
+D:\course\devskill-csharp-b8\Tasks\Task2\obj\Debug\net5.0\Task2.AssemblyInfo.cs
+D:\course\devskill-csharp-b8\Tasks\Task2\obj\Debug\net5.0\Task2.csproj.CoreCompileInputs.cache
+D:\course\devskill-csharp-b8\Tasks\Task2\bin\Debug\net5.0\Task2.exe
+D:\course\devskill-csharp-b8\Tasks\Task2\bin\Debug\net5.0\Task2.deps.json
+D:\course\devskill-csharp-b8\Tasks\Task2\bin\Debug\net5.0\Task2.runtimeconfig.json
+D:\course\devskill-csharp-b8\Tasks\Task2\bin\Debug\net5.0\Task2.runtimeconfig.dev.json
+D:\course\devskill-csharp-b8\Tasks\Task2\bin\Debug\net5.0\Task2.dll
+D:\course\devskill-csharp-b8\Tasks\Task2\bin\Debug\net5.0\ref\Task2.dll
+D:\course\devskill-csharp-b8\Tasks\Task2\bin\Debug\net5.0\Task2.pdb
+D:\course\devskill-csharp-b8\Tasks\Task2\obj\Debug\net5.0\Task2.dll
+D:\course\devskill-csharp-b8\Tasks\Task2\obj\Debug\net5.0\ref\Task2.dll
+D:\course\devskill-csharp-b8\Tasks\Task2\obj\Debug\net5.0\Task2.pdb
+D:\course\devskill-csharp-b8\Tasks\Task2\obj\Debug\net5.0\Task2.genruntimeconfig.cache

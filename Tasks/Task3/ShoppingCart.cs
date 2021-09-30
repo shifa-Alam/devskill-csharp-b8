@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace Task3
 {
-    public class ShoppingCart
+    public class ShoppingCart<T> where T :IProduct
     {
-        private List<IProduct> _items;
+        private List<T> _items;
 
         public ShoppingCart()
         {
-            _items = new List<IProduct>();
+            _items = new List<T>();
         }
 
-        public void AddItem(IProduct item)
+        public void AddItem(T item)
         {
             _items.Add(item);
         }

@@ -6,7 +6,8 @@ namespace Task2
     {
         static void Main(string[] args)
         {
-            var result = int.IsOdd(4);
+            int x = 4;
+            var result = x.IsOdd();
             Console.WriteLine(result);
         }
 

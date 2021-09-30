@@ -27,17 +27,38 @@ namespace Task4
 
             var result = Combine(customers, products);
 
-            foreach(var item in result)
+            foreach (var item in result)
             {
                 Console.WriteLine($"Customer Name: {item.customerName}, Product Name: {item.productName}, Price: {item.price}");
             }
         }
 
         public static List<(string customerName, int customerAge, string productName, double price)> Combine(
-            List<(string name, int age)> customers, 
+            List<(string name, int age)> customers,
             List<(string name, string customerName, double price)> products)
         {
-            throw new NotImplementedException();
+            var combineList = new List<(string customerName, int customerAge, string productName, double price)>();
+
+           
+            var innerJoin = customers.Join(
+                products,
+                customer => customer.name,
+                product => product.customerName,
+                (customer, product) => new
+                {
+                    customerName = product.customerName,
+                    customerAge = customer.age,
+                    productName = product.name,
+                    price = product.price
+                }
+                ).ToList();
+
+            foreach (var item in innerJoin)
+            {
+                combineList.Add(new (item.customerName,item.customerAge,item.productName,item.price));
+            }
+
+            return combineList;
         }
     }
 }
